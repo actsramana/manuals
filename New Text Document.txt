@@ -1,0 +1,22 @@
+	$scope.$on('$routeChangeSuccess', function () {
+								 $rootScope.screenId=$routeParams.screenId;
+									if(!$rootScope.screenId){
+										$rootScope.screenId='NA';
+								      }
+								});
+							
+
+
+
+
+/113
+
+<script src="assets/js/app/user_manual_module_app.js"></script>
+
+<user-manual-directive ></user-manual-directive>
+
+/sfh/:screenId 
+
+
+
+/EsipUiWeb/src/main/resources/static/assets/js/app/user_manual_module_app.js
